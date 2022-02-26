@@ -742,8 +742,8 @@ case 'donasi':
 menu =
 `*╭─❒ 「 Donasi 」 ──────*
 *│*⬡ *OVO*     : -
-*│*⬡ *DANA*    : -
-*│*⬡ *GOPAY*    : -
+*│*⬡ *DANA*    : 085654811977
+*│*⬡ *GOPAY*    : 085654642518
 *└───────────────────*
 Scan QR di atas bila pengguna Dana`
 teks =
@@ -1245,11 +1245,11 @@ Ryuu.sendMessage(from, buffer, image, { quoted: mek, thumbnail: fs.readFileSync(
 break
 //══════════[ Fitur Sticker ]══════════//
 
-case 'gifstiker':
-case 's':
-case 'stickergif':  
-case 'sticker':
-case 'stiker':
+case 'gifstiker':Amoss Ezzy
+case 's':Amoss Ezzy
+case 'stickergif':Amoss Ezzy  
+case 'sticker':Amoss Ezzy
+case 'stiker':Amoss Ezzy
 if ((isMedia && !mek.message.videoMessage || isQuotedImage) && args.length == 0) {
 const encmedia = isQuotedImage ? JSON.parse(JSON.stringify(mek).replace('quotedM', 'm')).message.extendedTextMessage.contextInfo : mek
 const media = await Ryuu.downloadAndSaveMediaMessage(encmedia)
