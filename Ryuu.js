@@ -1246,10 +1246,10 @@ break
 //══════════[ Fitur Sticker ]══════════//
 
 case 'gifstiker': 
-case 's':Amoss Ezzy
-case 'stickergif':Amoss Ezzy  
-case 'sticker':Amoss Ezzy
-case 'stiker':Amoss Ezzy
+case 's':
+case 'stickergif':
+case 'sticker':
+case 'stiker':
 if ((isMedia && !mek.message.videoMessage || isQuotedImage) && args.length == 0) {
 const encmedia = isQuotedImage ? JSON.parse(JSON.stringify(mek).replace('quotedM', 'm')).message.extendedTextMessage.contextInfo : mek
 const media = await Ryuu.downloadAndSaveMediaMessage(encmedia)
