@@ -1245,7 +1245,7 @@ Ryuu.sendMessage(from, buffer, image, { quoted: mek, thumbnail: fs.readFileSync(
 break
 //══════════[ Fitur Sticker ]══════════//
 
-case 'gifstiker': Amoss Ezzy
+case 'gifstiker': 
 case 's':Amoss Ezzy
 case 'stickergif':Amoss Ezzy  
 case 'sticker':Amoss Ezzy
